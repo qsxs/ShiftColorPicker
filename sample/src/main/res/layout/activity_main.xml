@@ -31,10 +31,11 @@
         android:orientation="horizontal" />
 
     <uz.shift.colorpicker.LineColorPicker
-        android:layout_width="match_parent"
-        android:layout_height="60dip"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
         android:id="@+id/picker3"
         app:selectedColorIndex="3"
+        android:orientation="vertical"
         app:colors="@array/sample_colors"/>
 
     <!--<uz.shift.colorpicker.LineColorPicker-->
